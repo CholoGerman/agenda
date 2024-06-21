@@ -49,3 +49,5 @@ function editar(){
     $resultado = (new tarea())->editar($id_tarea, $nombre, $fecha, $hora, $estado);
     echo json_encode($resultado);
 }
+
+// a
